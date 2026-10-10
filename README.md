@@ -42,37 +42,37 @@ Continuous error detection, analysis, and fixing until code is error-free:
 │                    REPAIR LOOP                          │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  1. PREDICT ERRORS (Pre-execution analysis)            │
-│     ├─ Static analysis of all statements               │
-│     ├─ Data flow tracking                              │
-│     ├─ Type checking                                   │
-│     └─ Pattern matching against error signatures       │
+│  1. PREDICT ERRORS (Pre-execution analysis)             │
+│     ├─ Static analysis of all statements                │
+│     ├─ Data flow tracking                               │
+│     ├─ Type checking                                    │
+│     └─ Pattern matching against error signatures        │
 │                                                         │
-│  2. CLASSIFY & PRIORITIZE                              │
-│     ├─ Error severity (Critical/High/Medium/Low)       │
-│     ├─ Error category (Logic/Security/Performance)     │
-│     └─ Dependencies between errors                     │
+│  2. CLASSIFY & PRIORITIZE                               │
+│     ├─ Error severity (Critical/High/Medium/Low)        │
+│     ├─ Error category (Logic/Security/Performance)      │
+│     └─ Dependencies between errors                      │
 │                                                         │
 │  3. GENERATE FIXES                                      │
-│     ├─ Context-aware fix suggestions                   │
-│     ├─ Multiple fix strategies                         │
-│     ├─ Validate fix doesn't break other code           │
-│     └─ Apply safest fix with highest confidence        │
+│     ├─ Context-aware fix suggestions                    │
+│     ├─ Multiple fix strategies                          │
+│     ├─ Validate fix doesn't break other code            │
+│     └─ Apply safest fix with highest confidence         │
 │                                                         │
 │  4. VALIDATE & TEST                                     │
-│     ├─ Unit test execution                             │
-│     ├─ Integration test execution                      │
-│     ├─ Regression test execution                       │
-│     ├─ Performance benchmarking                        │
-│     └─ Security vulnerability re-check                │
+│     ├─ Unit test execution                              │
+│     ├─ Integration test execution                       │
+│     ├─ Regression test execution                        │
+│     ├─ Performance benchmarking                         │
+│     └─ Security vulnerability re-check                  │
 │                                                         │
 │  5. ITERATE                                             │
-│     └─ Return to step 1 if errors remain               │
+│     └─ Return to step 1 if errors remain                │
 │                                                         │
 │  6. REPORT & COMMIT                                     │
-│     ├─ Detailed fix report                             │
-│     ├─ Before/after code comparison                    │
-│     └─ Quality metrics                                 │
+│     ├─ Detailed fix report                              │
+│     ├─ Before/after code comparison                     │
+│     └─ Quality metrics                                  │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
